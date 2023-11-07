@@ -1,0 +1,147 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navigation-Bar */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url(/images/transparency.png);
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+
+.nav-item {
+  margin: 0px 15px;
+}
+
+.customNav a {
+  color: white !important;
+}
+
+/* Jumbotron */
+.welcomeBackground {
+  background-image: url(/images/fistail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: black;
+  text-align: center;
+}
+
+/* Skills */
+.skills {
+  margin: 0px;
+}
+
+.img-fluid {
+  width: 50%;
+}
+
+/* Work */
+.content {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.sectionHeading {
+  text-align: center;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.sideAccent {
+  background: burlywood;
+  width: 15px;
+}
+
+.imageContainer {
+  padding: 15px;
+}
+
+.imageContainer img {
+  border: 5px solid;
+  width: 100%;
+}
+
+.about-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* About me */
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+.card img {
+  border-radius: 100%;
+  width: 30%;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 20px;
+}
+.contact-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(100, 100, 100, 0.5);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: #000;
+}
+
+.contact-section .social a:hover {
+  color: rgba(100, 200, 255, 0.8);
+}
+/* footer */
+footer {
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+  margin: 0;
+}

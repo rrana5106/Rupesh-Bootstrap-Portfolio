@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom Font -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli"
+      rel="stylesheet"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Rupesh Portfolio</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/RRMlogo.png" alt="RRMlogo" width="50px" />
+          Rupesh Portfolio
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about-me"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#skills"
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation Bar -->
+    <!-- Jumbotron -->
+    <div class="p-5 mb-2 bg-body-tertiary welcomeBackground">
+      <div class="container-fluid py-5 jumboCopy">
+        <h1 class="display-5 fw-bold">Welcome to My Portfolio!</h1>
+        <p class="col-md-12 fs-4">
+          Hello! everyone.
+          <br />
+          Welcome to my page! This page was created using Bootstrap 5. If you
+          want to view my work, then please click on the work tab.
+          <br />
+          Please use the contact tab to get in touch with me if you appreciate
+          my work.
+          <br />
+          Thank you!
+        </p>
+      </div>
+    </div>
+    <!-- End of Jumbotron -->
+
+    <!-- Skills -->
+    <section class="p-3 skills text-center bg-light" id="skills">
+      <div class="container">
+        <h2 class="mb-5">Skills</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="images/html.png"
+                alt=""
+              />
+              <h5>HTML</h5>
+              <p class="fw-light mb-0">
+                "HTML (Hypertext Markup Language) is the standard language for
+                creating and structuring content on the World Wide Web."
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="images/css.png"
+                alt=""
+              />
+              <h5>CSS</h5>
+              <p class="fw-light mb-0">
+                " CSS (Cascading Style Sheets) is a stylesheet language used for
+                describing the presentation and visual style of web documents
+                written in HTML."
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img
+                class="img-fluid rounded-circle mb-3"
+                src="images/JS.png"
+                alt=""
+              />
+              <h5>JavaScript</h5>
+              <p class="fw-light mb-0">
+                " JavaScript is a versatile, high-level programming language
+                primarily used for enhancing interactivity and functionality on
+                websites."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills End -->
+
+    <!-- Work -->
+    <div class="container-fluid content" id="work">
+      <h2 class="mb-5 sectionHeading">Work</h2>
+      <!-- Row 1 -->
+      <div class="row valueProp">
+        <div class="sideAccent"></div>
+        <div class="col-3 imageContainer">
+          <img src="./images/horiseon.png" />
+        </div>
+        <div class="col-8 about-project">
+          <h3>Horiseon</h3>
+          <p>
+            This project is a marketing agency website, designed to showcase the
+            agency's services, including search engine optimization, online
+            reputation management, and social media marketing. The website
+            emphasizes accessibility and search engine optimization best
+            practices.
+          </p>
+          <a
+            href="./Projects/rupesh-portfolio/marketing-website/index.html"
+            class="btn btn-primary"
+            >View
+          </a>
+        </div>
+      </div>
+      <!-- End row 1 -->
+      <hr />
+      <!-- Row 2 -->
+      <div class="row valueProp">
+        <div class="sideAccent"></div>
+        <div class="col-3 imageContainer">
+          <img src="/images/classroom-project.png" />
+        </div>
+        <div class="col-8 about-project">
+          <h3>CSS Cheatsheet</h3>
+          <p>
+            This is a CSS Snippet Cheatsheet, which will help you to recall the
+            exact syntax for your favourite CSS code.
+          </p>
+          <a
+            href="./Projects/rupesh-portfolio/CLasswork-Mini-Project/index.html"
+            class="btn btn-primary"
+            >View
+          </a>
+        </div>
+      </div>
+      <!-- End row 2 -->
+      <hr />
+      <!-- Row 3 -->
+      <div class="row valueProp">
+        <div class="sideAccent"></div>
+        <div class="col-3 imageContainer">
+          <img src="./images/Rupesh-Portfolio.png" />
+        </div>
+        <div class="col-8 about-project">
+          <h3>Portfolio</h3>
+          <p>
+            This is my first porfolio project where it shows all the web work
+            that I have learned in week one and two.
+          </p>
+          <a
+            href="./Projects/rupesh-portfolio/index.html"
+            class="btn btn-primary"
+            >View
+          </a>
+        </div>
+      </div>
+      <!-- End row 3 -->
+      <hr />
+    </div>
+    <!-- End content -->
+    <!-- About me -->
+
+    <div class="card" id="about-me">
+      <div class="card-body">
+        <img src="./images/profile-pic.jpeg" class="float-end" alt="..." />
+        <h3 class="card-title">About me!</h3>
+
+        <p class="card-text">
+          Greetings! everyone, My name is Rupesh Rana Magar. I'm a committed
+          professional with a love of learning and development, currently
+          residing in Colchester.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact-->
+    <section class="contact-section bg-white" id="contact">
+      <div class="container">
+        <div class="social d-flex justify-content-center">
+          <a class="mx-2" href="https://www.instagram.com/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="mx-2" href="https://en-gb.facebook.com/"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a class="mx-2" href="https://github.com"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; Your Website 2023. Coded by yours truyl!</p>
+      </div>
+    </footer>
+    <!-- JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
